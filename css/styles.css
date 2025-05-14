@@ -159,6 +159,7 @@ h1 {
     flex-direction: column;
 }
 
+
 .joniacontent{
     background-color: rgba(0, 0, 0, 0.5);
     width: 800em;
@@ -187,4 +188,40 @@ h1 {
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+/*contenido modal*/
+.modal{
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: #111111bd;
+    display: none;
+}
+
+.contenido-modal{
+    background-color: white;
+    width: 70%;
+    max-height: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-top: 10%;
+    border-radius: 6px;
+    padding: 2em 2em;
+    display: flex;
+    gap: 2em;
+    
+}
+
+.modal span {
+    float: right;
+    font-size: 19px;
+    cursor: pointer;
+    background-color: red;
+    max-height: 20px;
+    width: 2rem;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    margin: 1rem;
 }

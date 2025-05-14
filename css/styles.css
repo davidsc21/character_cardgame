@@ -97,8 +97,43 @@ nav {
     display: inline-block;
 }
 
+.btntroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #FFD700, #bb8e1b);;
+    width: 14rem;
+    height: 4rem;
+    border-radius: 10px;
+    border:4px solid #a17a17;
+    
+}
+
+.btntroll:hover{
+    text-align: center;
+    background-color: #a1b0d8;
+    width: 14rem;
+    height: 4rem;
+    border-radius: 10px;
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    box-shadow: 30px 30px 30px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.btntroll a{
+    color: white;
+    display: inline-block;
+}
+
+.botones{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 h1 {
-  font-size: 2rem;
+  font-size: 5rem;
 }
 
 .containerhome {
@@ -152,7 +187,7 @@ h1 {
     margin-left: 10%;
     margin-right: 10%;
     color: white;
-    padding: 30px;
+    padding: 10rem;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -200,7 +235,7 @@ h1 {
 
 .contenido-modal{
     background-color: white;
-    width: 70%;
+    width: 15%;
     max-height: 90%;
     margin-right: auto;
     margin-left: auto;
@@ -210,7 +245,8 @@ h1 {
     padding: 2em 2em;
     display: flex;
     gap: 2em;
-    
+    align-items: center;
+    justify-content: center;
 }
 
 .modal span {

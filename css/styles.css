@@ -29,26 +29,24 @@ display: flex;
 nav {
   display: flex;
   justify-content: center;
-  background-color: #1c1e27;
+  padding: 3rem;
+  gap: 1rem;
   background: linear-gradient(
     to bottom,
     rgba(28, 30, 39, 0.9),
-    rgba(0, 0, 0, 0.1)   
+    rgba(0, 0, 0, 0.1)
   );
-  padding: 3rem;
-  gap: 1rem;
 }
 
-.btn{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #444c5c;
-    width: 10rem;
-    height: 4rem;
-    border-radius: 10px;
-    border:4px solid #DAA520;
-    
+.btn {
+  background-color: #444c5c;
+  border: 4px solid #DAA520;
+  border-radius: 10px;
+  width: 10rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btn:hover{
@@ -63,9 +61,14 @@ nav {
     cursor: pointer;
 }
 
-.btn a{
-    color: white;
-    display: inline-block;
+.btn a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .btnextra{
@@ -160,7 +163,7 @@ h1 {
 
 .containernoxus{
     width: 100%;         
-    height: 100vh;           
+    height: 100%;           
     background-image: url(https://64.media.tumblr.com/4eea46f86b630cb4085b94ccd9e3e917/96e06f7da4422289-e4/s540x810/64f4ef1667de51e779a70ade090ce92c6012f32a.gifv); 
     background-size: cover; 
     background-position: center; 
@@ -171,7 +174,7 @@ h1 {
 
 .containerarena{
     width: 100%;         
-    height: 100vh;           
+    height: 100%;           
     background-image: url(https://i.makeagif.com/media/1-21-2019/N3MnDW.gif); 
     background-size: cover; 
     background-position: center; 
@@ -210,23 +213,31 @@ h1 {
 }
 
 .noxuscontent{
+    display: flex;
     background-color: rgba(0, 0, 0, 0.5);
     width: 800em;
     margin-left: 10%;
     margin-right: 10%;
+    color: white;
+    padding: 10rem;
+    text-align: center;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    flex-direction: column;
 }
 
 .arenacontent{
+    display: flex;
     background-color: rgba(0, 0, 0, 0.5);
     width: 800em;
     margin-left: 10%;
     margin-right: 10%;
+    color: white;
+    padding: 10rem;
+    text-align: center;
     align-items: center;
     justify-content: center;
-    text-align: center;
+    flex-direction: column;
 }
 
 /*contenido modal*/

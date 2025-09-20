@@ -10,9 +10,7 @@ Character Card Game es un juego de estrategia por turnos donde los jugadores luc
 
 - 🃏 **Sistema de Cartas**: Colección diversa de personajes con habilidades únicas
 - ⚔️ **Combate Estratégico**: Sistema de batalla por turnos
-- 🏆 **Progresión**: Sistema de niveles y desbloqueo de nuevas cartas
 - 🎨 **Interfaz Intuitiva**: Diseño limpio y fácil de usar
-- 💾 **Guardado de Progreso**: Mantén tu progreso y colección
 
 ## 🚀 Instalación
 
@@ -72,3 +70,4 @@ Si encuentras un bug, por favor abre un issue con:
 
 ## Derechos
 Todos los derechos reservados a Riot Games
+

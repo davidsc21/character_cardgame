@@ -6,6 +6,9 @@ Un juego de cartas estratégico con cartas inspiradas en los personajes del reco
 
 Character Card Game es un juego de estrategia por turnos donde los jugadores luchan hasta quedar solo un ganador. Cada carta representa un personaje único con habilidades, estadísticas y efectos especiales. El juego cuenta con modos jugador contra jugador(jcj), jugador contra bot y bot contra bot.
 
+## Link del juego
+https://lolcardgame.netlify.app/
+
 ## ✨ Características
 
 - 🃏 **Sistema de Cartas**: Colección diversa de personajes con habilidades únicas
@@ -70,4 +73,5 @@ Si encuentras un bug, por favor abre un issue con:
 
 ## Derechos
 Todos los derechos reservados a Riot Games
+
 

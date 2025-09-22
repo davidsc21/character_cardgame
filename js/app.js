@@ -31,34 +31,34 @@ const pages = {
     <audio src="media/audio/Here, Tomorrow.mp3" autoplay loop></audio>
     <div class="containerjonia">
       <div class="joniacontent">
-      <img src=../media/img/joniareal.png width:800px>
+      <img src=../media/img/extra/joniareal.png width:800px>
       <h2>Jonia es una región mística y espiritual. Se compone de un archipiélago conocido como las Tierras Originarias, donde sus habitantes buscan el equilibrio entre lo material y lo espiritual.</h2>
       <hr>
       <div class="campeones">
         <cartas-jonia
           nombre="Kayn"
           descripcion="Kayn, un prodigio de la Orden de las Sombras entrenado por Zed, porta la guadaña viviente Rhaast. Lucha por controlar el arma oscura que amenaza con corromperlo, mientras él intenta dominar su poder para convertirse en el arma definitiva de la Sombra."
-          imagen="./media/img/kaynicon.webp">
+          imagen="./media/img/icons/kaynicon.webp">
         </cartas-jonia>
         <cartas-jonia
           nombre="Akali"
           descripcion="Akali, también conocida como la Asesina Silenciosa, abandonó la Orden Kinkou para actuar por cuenta propia. Usa su agilidad y precisión para proteger a Jonia eliminando amenazas con velocidad letal y sin hacer ruido."
-          imagen="./media/img/akaliicon.jpg">
+          imagen="./media/img/icons/akaliicon.jpg">
         </cartas-jonia>
         <cartas-jonia
           nombre="Shen"
           descripcion="Shen, el Ojo del Crepúsculo, es el líder de la Orden Kinkou. Actúa como equilibrio entre el mundo espiritual y el físico, guiado por la lógica y el deber. Defiende la armonía sin dejarse llevar por emociones."
-          imagen="./media/img/shenicon.png">
+          imagen="./media/img/icons/shenicon.png">
         </cartas-jonia>
         <cartas-jonia
           nombre="Irelia"
           descripcion="Irelia, la Bailarina de las Cuchillas, se convirtió en símbolo de resistencia en Jonia durante la invasión noxiana. Su elegante control de las hojas flota con gracia, pero es letal en batalla."
-          imagen="./media/img/ireliaicon.jpg">
+          imagen="./media/img/icons/ireliaicon.jpg">
         </cartas-jonia>
         <cartas-jonia
           nombre="Yone"
           descripcion="Yone fue un guerrero honorable y hermano de Yasuo, asesinado por este último. Resucitó cazando demonios azakana, dividido entre su humanidad y la entidad espiritual que lo trajo de vuelta."
-          imagen="./media/img/yoneicon.jpg">
+          imagen="./media/img/icons/yoneicon.jpg">
         </cartas-jonia>
       </div>
     </body>
@@ -70,33 +70,33 @@ const pages = {
     <audio src="media/audio/Phoenix.mp3" autoplay loop></audio>
     <div class="containernoxus">
       <div class="noxuscontent">
-      <img src=../media/img/noxusreal.png width:800px>
+      <img src=../media/img/extra/noxusreal.png width:800px>
       <div class="campeones">
       <h2>Noxus es un poderoso imperio, conocido por su expansión agresiva y su cultura de fuerza y meritocracia. Aunque desde fuera parece una nación brutal y militarizada, en su interior es sorprendentemente inclusiva, valorando el talento y la habilidad por encima del origen o estatus social.</h2>
         <cartas-noxus
           nombre="Mordekaiser"
           descripcion="Mordekaiser, el Renacido de Hierro, es una fuerza ancestral que desafía la muerte con cada paso. Antiguo señor de la guerra, renació envuelto en acero maldito y magia oscura, decidido a conquistar no solo el mundo físico, sino también el espiritual. Cada enemigo que cae bajo su maza no muere: es condenado a servirle eternamente en su reino de sombras. Su ambición no tiene fin, y donde su sombra se extiende, la esperanza se desvanece. Mordekaiser no solo destruye cuerpos... aplasta voluntades."
-          imagen="./media/img/mordeicon.jpg">
+          imagen="./media/img/icons/mordeicon.jpg">
         </cartas-noxus>
         <cartas-noxus
           nombre="Leblanc"
           descripcion="LeBlanc es una hechicera misteriosa y maestra de las ilusiones. Como líder de la Rosa Negra, una organización secreta en Noxus, manipula eventos y personas desde las sombras. Su magia le permite reflejarse a sí misma, aparecer en múltiples lugares a la vez y sembrar el caos con engaños. Su verdadera identidad y objetivos siguen siendo un enigma."
-          imagen="./media/img/leblancicon.webp">
+          imagen="./media/img/icons/leblancicon.webp">
         </cartas-noxus>
         <cartas-noxus
           nombre="Darius"
           descripcion="Darius es un guerrero formidable y el símbolo del poder de Noxus. Conocido como 'La Mano de Noxus', es un comandante implacable que lidera con fuerza y disciplina. Criado en la ciudad portuaria de Basilich junto a su hermano Draven, ascendió en el ejército noxiano gracias a su agresividad y determinación. Su hacha, la Guillotina Noxiana, es su arma característica, capaz de ejecutar enemigos con precisión letal"
-          imagen="./media/img/dariusicon.png">
+          imagen="./media/img/icons/dariusicon.png">
         </cartas-noxus>
         <cartas-noxus
           nombre="Samira"
           descripcion="Samira, conocida como 'La Rosa del Desierto', enfrenta la muerte con una confianza inquebrantable. Originaria de Shurima, su hogar fue destruido cuando era niña, lo que la llevó a encontrar su verdadera vocación en Noxus. Se ganó la reputación de ser una temeraria con estilo, capaz de completar las misiones más peligrosas con elegancia y precisión. "
-          imagen="./media/img/samiraicon.jpg">
+          imagen="./media/img/icons/samiraicon.jpg">
         </cartas-noxus>
         <cartas-noxus
           nombre="Katarina"
           descripcion="Katarina, es una asesina noxiana de élite. Hija del legendario general Du Couteau, ha perfeccionado el arte del asesinato con precisión mortal. Su velocidad y letalidad la convierten en una amenaza constante en el campo de batalla, capaz de eliminar enemigos en un torbellino de dagas. Su ambición la lleva a enfrentarse a objetivos fuertemente protegidos, sin importar el riesgo para sus aliados."
-          imagen="./media/img/katarinaicon.webp">
+          imagen="./media/img/icons/katarinaicon.webp">
         </cartas-noxus>
       </div>
       </div>

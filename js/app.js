@@ -60,7 +60,12 @@ const pages = {
           descripcion="Yone fue un guerrero honorable y hermano de Yasuo, asesinado por este último. Resucitó cazando demonios azakana, dividido entre su humanidad y la entidad espiritual que lo trajo de vuelta."
           imagen="./media/img/icons/yoneicon.jpg">
         </cartas-jonia>
-      </div>
+        <cartas-jonia
+          nombre="Jhin"
+          descripcion="Jhin, el Virtuoso, es un asesino en serie y sicario de Jonia, demente y meticuloso, que concibe el asesinato como una forma de arte. Cada víctima es parte de su macabra obra maestra, ejecutada con precisión y teatralidad para crear un espectáculo de muerte."
+          imagen="./media/img/icons/jhinicon.jpg">
+        </cartas-jonia>
+        </div>
     </body>
     </html>
       </div>

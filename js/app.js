@@ -61,6 +61,11 @@ const pages = {
           imagen="./media/img/icons/yoneicon.jpg">
         </cartas-jonia>
         <cartas-jonia
+          nombre="Zed"
+          descripcion="Zed es el implacable líder de la Orden de la Sombra. Antiguo miembro de la Orden Kinkou y hermano de armas de Shen, Zed rompió con las tradiciones de equilibrio de su maestro tras la invasión de Noxus a Jonia."
+          imagen="./media/img/icons/zedicon.webp">
+        </cartas-jonia>
+        <cartas-jonia
           nombre="Jhin"
           descripcion="Jhin, el Virtuoso, es un asesino en serie y sicario de Jonia, demente y meticuloso, que concibe el asesinato como una forma de arte. Cada víctima es parte de su macabra obra maestra, ejecutada con precisión y teatralidad para crear un espectáculo de muerte."
           imagen="./media/img/icons/jhinicon.jpg">
@@ -102,6 +107,11 @@ const pages = {
           nombre="Katarina"
           descripcion="Katarina, es una asesina noxiana de élite. Hija del legendario general Du Couteau, ha perfeccionado el arte del asesinato con precisión mortal. Su velocidad y letalidad la convierten en una amenaza constante en el campo de batalla, capaz de eliminar enemigos en un torbellino de dagas. Su ambición la lleva a enfrentarse a objetivos fuertemente protegidos, sin importar el riesgo para sus aliados."
           imagen="./media/img/icons/katarinaicon.webp">
+        </cartas-noxus>
+        <cartas-noxus
+          nombre="Talon"
+          descripcion="un asesino despiadado que creció sobreviviendo en las peligrosas calles de la capital. A diferencia de otros guerreros, Talon no busca gloria ni honor; su único objetivo es la eficiencia letal."
+          imagen="./media/img/icons/talonicon.png">
         </cartas-noxus>
       </div>
       </div>
@@ -355,7 +365,7 @@ customElements.define('cartas-noxus', Cartasnoxus);
 
 const elements = [
   {
-    imagen: "../media/img/borralol.jpg"
+    imagen: "media/img/extra/borralol.jpg"
   },
 ]
 function mostrarmodal(index){

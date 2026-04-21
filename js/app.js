@@ -121,7 +121,18 @@ const pages = {
     <audio src="media/audio/RISE.mp3" autoplay loop></audio>
     <div class="containerarena">
       <div class="arenacontent">
-        <h1>LA ARENA ESTARÁ DISPONIBLE PROXIMAMENTE...</h1>
+        <div class="gamemode">
+          <img class="portada"src="./media/img/extra/jcjpic.jpeg" height="95%" width="95%">
+          <h1 class="tituloportada" >PvP</h1>
+          </div>
+        <div class="gamemode">
+          <img class="portada"src="./media/img/extra/jvmpic.webp" height="95%" width="95%">
+          <h1 class="tituloportada2" >PvPC</h1>
+        </div>
+        <div class="gamemode">
+          <img class="portada"src="./media/img/extra/pcvpcpic.jpg" height="95%" width="95%">
+          <h1 class="tituloportada3" >PCvPC</h1>
+        </div>
       </div>
     </div>
   `

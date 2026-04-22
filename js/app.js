@@ -113,6 +113,41 @@ const pages = {
           descripcion="un asesino despiadado que creció sobreviviendo en las peligrosas calles de la capital. A diferencia de otros guerreros, Talon no busca gloria ni honor; su único objetivo es la eficiencia letal."
           imagen="./media/img/icons/talonicon.png">
         </cartas-noxus>
+        <cartas-noxus
+          nombre="Swain"
+          descripcion="Swain,visionario gobernante de una nación expansionista que solo venera a la fuerza."
+          imagen="./media/img/icons/swainicon.webp">
+        </cartas-noxus>
+        <cartas-noxus
+          nombre="Draven"
+          descripcion="un antiguo soldado cuyo sentido del espectáculo y habilidad sin igual con las hachas giratorias son enormemente apreciados por la multitud. Adicto al exhibicionismo de su propia e impetuosa perfección, Draven se ha jurado derrotar a quien sea necesario con tal de asegurarse de que su nombre se coree por todo el imperio para siempre."
+          imagen="./media/img/icons/dravenicon.jpg">
+        </cartas-noxus>
+        <cartas-noxus
+          nombre="Sion"
+          descripcion="Sion fue un héroe de guerra en el pasado y los noxianos lo veneraban porque había arrebatado la vida de un rey demaciano con sus simples manos. No obstante, se le denegó su viaje al más allá, pues fue revivido para servir a su imperio incluso después de muerto."
+          imagen="./media/img/icons/sionicon.png">
+        </cartas-noxus>
+        <cartas-noxus
+          nombre="Kledd"
+          descripcion="Kled es un guerrero yordle tan intrépido como malhumorado y es la encarnación de la furiosa bravuconería noxiana. Los soldados del imperio lo adoran, sus oficiales desconfían de él y la clase noble lo detesta."
+          imagen="./media/img/icons/kledicon.webp">
+        </cartas-noxus>
+        <cartas-noxus
+          nombre="Riven"
+          descripcion="Riven es una expatriada en la tierra que previamente había tratado de conquistar. Fue ascendiendo de rango gracias a la fuerza de su convicción y a su brutal eficiencia, y fue recompensada con una espada rúnica legendaria y un escuadrón propio. Sin embargo, en el frente jonio, la fe de Riven en su tierra natal fue puesta a prueba y, finalmente, quebrada. Tras romper todo lazo con el imperio, ahora busca encontrar su lugar en un mundo destrozado, a pesar de que abundan los rumores de que Noxus ha sido reforjado..."
+          imagen="./media/img/icons/Rivenicon.webp">
+        </cartas-noxus>
+        <cartas-noxus
+          nombre="Briar"
+          descripcion="La incontrolable sed de sangre que siente Briar, un experimento fallido de la Rosa Negra, la obliga a cargar con una picota especial que calma su enajenada mente. Tras años de confinamiento, esta arma viviente se ha librado de sus cadenas y se ha lanzado al mundo. Ahora nadie la controla, por lo que solo su sed de conocimiento... y sangre guía sus actos. Asimismo, goza con aquellas oportunidades que le permiten dar rienda suelta a sus instintos, aun si luego le cuesta sobremanera reprimir ese frenesí."
+          imagen="./media/img/icons/Briaricon.jpg">
+        </cartas-noxus>
+        <cartas-noxus
+          nombre="Ambessa"
+          descripcion="Todo el que conoce el apellido Medarda respeta y teme a partes iguales a la matriarca de la familia, Ambessa. Esta general noxiana encarna una mortífera combinación de fuerza implacable e inquebrantable determinación en la batalla. En cuanto a su rol como matriarca, no hay diferencia alguna, pues dotar de poder a los Medarda requiere de una gran astucia y no hay cabida para el fracaso ni la compasión. Aceptando como suya la despiadada senda del Lobo, Ambessa hará todo lo que esté en su mano para proteger el legado de su familia, aunque le cueste el amor de sus propios hijos."
+          imagen="./media/img/icons/Ambessaicon.jpeg">
+        </cartas-noxus>
       </div>
       </div>
     </div>

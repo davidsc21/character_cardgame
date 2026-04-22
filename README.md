@@ -67,9 +67,10 @@ Si encuentras un bug, por favor abre un issue con:
 - Información del sistema
 
 
-## 👤 Autor
+## 👤 Autores
 
 **davidsc21** - [@davidsc21](https://github.com/davidsc21)
+**Brxyden2007** - [@brxyden2007](https://github.com/Brxyden2007)
 
 ## Derechos
 Todos los derechos reservados a Riot Games

@@ -26,6 +26,9 @@ const pages = {
           </div>
     </div>
   `,
+   champion: `
+    <div id="champion-detail"></div>
+  `,
   //contenido de jonia//
   jonia: `
     <audio src="media/audio/Here, Tomorrow.mp3" autoplay loop></audio>
@@ -156,7 +159,18 @@ const pages = {
     <audio src="media/audio/RISE.mp3" autoplay loop></audio>
     <div class="containerarena">
       <div class="arenacontent">
-        <h1>LA ARENA ESTARÁ DISPONIBLE PROXIMAMENTE...</h1>
+        <div class="gamemode">
+          <img class="portada"src="./media/img/extra/jcjpic.jpeg" height="95%" width="95%">
+          <h1 class="tituloportada" >PvP</h1>
+          </div>
+        <div class="gamemode">
+          <img class="portada"src="./media/img/extra/jvmpic.webp" height="95%" width="95%">
+          <h1 class="tituloportada2" >PvPC</h1>
+        </div>
+        <div class="gamemode">
+          <img class="portada"src="./media/img/extra/pcvpcpic.jpg" height="95%" width="95%">
+          <h1 class="tituloportada3" >PCvPC</h1>
+        </div>
       </div>
     </div>
   `
@@ -165,6 +179,49 @@ const pages = {
 function navigate(page) {
   const content = document.getElementById('container');
   content.innerHTML = pages[page] || '<h1>Página no encontrada</h1>';
+}
+
+function navigateChampion(champ) {
+  navigate('champion');
+
+  const container = document.getElementById('champion-detail');
+  const data = champions[champ];
+
+  if (!data) {
+    container.innerHTML = "<h2>Campeón no encontrado</h2>";
+    return;
+  }
+
+  container.innerHTML = `
+  <div class="champion-container">
+
+    <button class="btn-volver" onclick="navigate('home')">← Volver</button>
+
+    <h1 class="champion-title">${data.nombre}</h1>
+
+    <div class="viewer">
+      <img id="skin-activa" src="${data.skins[0]}" />
+    </div>
+
+    <div class="slider">
+      ${data.skins.map((skin, i) => `
+        <div class="item" style="--position:${i + 1}; --quantity:${data.skins.length}">
+          <img src="${skin}">
+        </div>
+      `).join("")}
+    </div>
+
+  </div>
+`;
+
+  // ✅ AHORA sí funciona
+  const imgs = container.querySelectorAll(".slider img");
+
+  imgs.forEach(img => {
+    img.addEventListener("click", () => {
+      container.querySelector("#skin-activa").src = img.src;
+    });
+  });
 }
 
 class Cartasjonia extends HTMLElement {
@@ -254,6 +311,23 @@ class Cartasjonia extends HTMLElement {
           color: #fff;
           margin: 5px 0;
         }
+
+        .btn-skins {
+          margin-top: 10px;
+          padding: 8px 12px;
+          background: linear-gradient(145deg, #d4af37, #f1c40f);
+          color: black;
+          border: none;
+          border-radius: 8px;
+          font-weight: bold;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+
+        .btn-skins:hover {
+          transform: scale(1.05);
+          box-shadow: 0 0 10px gold;
+        }
       </style>
 
       <div class="card-container">
@@ -265,6 +339,7 @@ class Cartasjonia extends HTMLElement {
           <div class="cara trasera">
             <p><strong>${nombre}</strong></p>
             <p>${descripcion}</p>
+            <button class="btn-skins">Ver skins</button>
           </div>
         </div>
       </div>
@@ -276,6 +351,14 @@ class Cartasjonia extends HTMLElement {
     carta.addEventListener('click', () => {
       carta.classList.toggle('girada');
     });
+
+    const nombre = this.getAttribute('nombre').toLowerCase();
+
+    this.shadowRoot.querySelector('.btn-skins')
+      .addEventListener('click', (e) => {
+        e.stopPropagation();
+        navigateChampion(nombre);
+      });
   }
 }
 
@@ -369,6 +452,22 @@ class Cartasnoxus extends HTMLElement {
           color: #fff;
           margin: 5px 0;
         }
+        .btn-skins {
+          margin-top: 10px;
+          padding: 8px 12px;
+          background: linear-gradient(145deg, #d4af37, #f1c40f);
+          color: black;
+          border: none;
+          border-radius: 8px;
+          font-weight: bold;
+          cursor: pointer;
+          transition: all 0.3s ease;
+        }
+
+        .btn-skins:hover {
+          transform: scale(1.05);
+          box-shadow: 0 0 10px gold;
+        }
       </style>
 
       <div class="card-container">
@@ -380,6 +479,7 @@ class Cartasnoxus extends HTMLElement {
           <div class="cara trasera">
             <p><strong>${nombre}</strong></p>
             <p>${descripcion}</p>
+            <button class="btn-skins">Ver skins</button>
           </div>
         </div>
       </div>
@@ -391,6 +491,14 @@ class Cartasnoxus extends HTMLElement {
     carta.addEventListener('click', () => {
       carta.classList.toggle('girada');
     });
+
+    const nombre = this.getAttribute('nombre').toLowerCase();
+
+    this.shadowRoot.querySelector('.btn-skins')
+      .addEventListener('click', (e) => {
+        e.stopPropagation();
+        navigateChampion(nombre);
+      });
   }
 }
 
@@ -413,4 +521,3 @@ function mostrarmodal(index){
 function cerrarmodal(){
   document.getElementById("modal").style.display='none'
 }
-
